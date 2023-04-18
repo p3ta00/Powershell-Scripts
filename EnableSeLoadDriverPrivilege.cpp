@@ -18,6 +18,8 @@ We will have all access on the system.
 #include <assert.h>
 #include <winternl.h>
 #include <sddl.h>
+#include <stdio.h>
+#include "tchar.h"
 #pragma comment(lib,"advapi32.lib") 
 #pragma comment(lib,"user32.lib") 
 #pragma comment(lib,"Ntdll.lib")
